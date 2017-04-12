@@ -9,17 +9,29 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+   @font-face {
+     font-family: 'FontAwesome';
+     src: url('fonts/FontAwesome.otf');
+     font-weight: normal;
+     font-style: normal;
+   }
+
+*,  *: before, *: after{
+  box-sizing:inherit;
+   }
 
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
     box-sizing: border-box;
+    align-content: center;
 }
 
 body {
   max-width: 670px;
-  align-content: center;
+  margin: 0 auto;
+  font: 'FontAwesome';
 }
 
 #random {
@@ -29,8 +41,10 @@ body {
 #navbar {
   background-color: #000;
   color: #fff;
-  margin:  0 0 1em;
+  margin: 0 auto;
   padding: 20px 0px 20px 20px;
+  position: absolute;
+  width: 100%;
 }
 
 h2{
