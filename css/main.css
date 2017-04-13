@@ -95,7 +95,7 @@ textarea {
 
 
 
-html {
+* {
     box-sizing: border-box;
    }
 
@@ -129,26 +129,26 @@ body {
 }
 
 .purple {
-  display: block;
   border: 1px red solid;
-  max-width: 100%;
   position: relative;
+  color: #fff;
 }
 
 .purple_content {
-  border: 1px red solid;
   color: #fff;
-  margin: auto;
-  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .purple_bg {
+  display: block;
   max-width: 100%;
+  text-align: center;
   position: relative;
+  z-index: -10px;
 }
 
 
@@ -160,13 +160,17 @@ h1 {
 }
 
 
-
 .latest-work {
   align-content: center;
+  overflow: auto;
+}
+
+.latest-work h3 {
+  padding: 20px;
+
 }
 
 .project {
-  border: solid 1px red;
   width: 285px;
   height: 215px;
   float: left;
@@ -187,10 +191,13 @@ h1 {
 .project img {
   width: 285px;
   height: 215px;
+  padding: 2px;
 }
 
-
-
+#about {
+  border-bottom: 1px solid #eee;
+  padding: 60px 0 60px 20px;
+}
 
 
 
