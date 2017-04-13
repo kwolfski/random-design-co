@@ -9,53 +9,6 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-   @font-face {
-     font-family: 'FontAwesome';
-     src: url('fonts/FontAwesome.otf');
-     font-weight: normal;
-     font-style: normal;
-   }
-
-*,  *: before, *: after{
-  box-sizing:inherit;
-   }
-
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-    box-sizing: border-box;
-    align-content: center;
-}
-
-body {
-  max-width: 670px;
-  margin: 0 auto;
-  font: 'FontAwesome';
-}
-
-#random {
-  position: relative;
-}
-
-#navbar {
-  background-color: #000;
-  color: #fff;
-  margin: 0 auto;
-  padding: 20px 0px 20px 20px;
-  position: absolute;
-  width: 100%;
-}
-
-h2{
-  font-size: 20px;
-}
-
-
-
-
-
-
 
 
 
@@ -139,6 +92,58 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+
+html {
+    box-sizing: border-box;
+   }
+
+*,  *: before, *: after{
+  box-sizing:inherit;
+   }
+
+
+body {
+  max-width: 670px;
+  margin: 0 auto;
+}
+
+
+.page-header {
+  background-color: #000;
+  margin: 0 auto;
+  padding: 1em;
+  position: relative;
+  width: 100%;
+}
+
+.page-header h2{
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.fa-bars{
+  color: white;
+}
+
+#random {
+  color: #fff;
+  position: absolute;
+}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 250%;
+  line-height: 1.2em;
+}
+
+#background {
+  width: 100%;
+  display: block;
+}
 
 
 
