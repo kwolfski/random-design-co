@@ -115,7 +115,7 @@ body {
   margin: 0 auto;
   padding: 1em;
   position: relative;
-  width: 100%;
+  width: auto;
 }
 
 .page-header h2{
@@ -135,6 +135,7 @@ body {
 }
 
 .purple_content {
+  display: block;
   color: #fff;
   position: absolute;
   top: 50%;
@@ -167,7 +168,6 @@ h1 {
 
 .latest-work h3 {
   padding: 20px;
-
 }
 
 .project {
@@ -192,6 +192,10 @@ h1 {
   width: 285px;
   height: 215px;
   padding: 2px;
+}
+
+.project a hover{
+  background: #000;
 }
 
 #about {
